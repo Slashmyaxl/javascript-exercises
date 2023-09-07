@@ -1,20 +1,20 @@
-const removeFromArray = function(data, ...args) {
+const removeFromArray = function(array, ...args) {
 
 const newArr = [];
 
-data.forEach(remove);
-
-/* data.forEach((item) => {
+array.forEach((item) => {
     if (!args.includes(item)) {
         newArr.push(item);
     }
-}); */
+});
+
+/* array.forEach(remove);
 
 function remove(item) {
     if (!args.includes(item)) {
         newArr.push(item)
     }
-}
+} */
 
 return newArr;
 
